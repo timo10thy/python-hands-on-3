@@ -11,6 +11,9 @@ meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
 → Modify the list as required and print the final list and the center meal.
 """
 meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
-meals = meals.insert(4,"Miyan Taushe")
-print(meals)
-
+meals.insert(4,"Miyan Taushe")
+print("Q1",meals)
+meals.remove(meals[1])
+print("Q2",meals)
+meals[3]= meals[5]
+#print("Q3",meals)
