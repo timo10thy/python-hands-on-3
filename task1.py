@@ -15,5 +15,10 @@ meals.insert(4,"Miyan Taushe")
 print("Q1",meals)
 meals.remove(meals[1])
 print("Q2",meals)
-meals[3]= meals[5]
-#print("Q3",meals)
+meals.remove(meals[2])
+meals.append("Fura da Nono")
+print("Q3",meals)
+center_meal = len(meals) // 2
+print("Q4",meals[center_meal])
+meals.sort()
+print("Q5",meals)
